@@ -1,0 +1,1 @@
+This repository is about linux command and shell scripting.
