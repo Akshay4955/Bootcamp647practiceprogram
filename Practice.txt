@@ -1,0 +1,31 @@
+echo "First Demo Repository For TFP-647 Bootcamp Batch" >> README.md
+git init
+git add README.md
+git commit -m "first commit for TFP-647 Demo Repository"
+git remote add origin https://github.com/dc7875/Demo-Repo-TFP-647.git
+git push -u origin master
+git branch
+git branch -m DemoBranch-1
+git branch
+notepad File_1.txt
+git status
+git add File_1.txt
+git status
+git commit -m "Added: File_1.txt on DemoBranch-1"
+git push -u origin DemoBranch-1
+git branch
+git checkout master
+git branch
+git merge DemoBranch-1
+git push -u origin
+git branch -m DemoBranch-2
+git branch
+notepad File_1.txt
+git status
+git add File_1.txt
+git status
+git commit -m "Refactor: File_1.txt on DemoBranch-2"
+git push -u origin DemoBranch-2
+git checkout master
+git merge DemoBranch-2
+git push -u origin
