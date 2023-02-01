@@ -4,9 +4,8 @@ sum=0;
 for i in `seq 5`
 do	
 	number=$((RANDOM%89+10));
-	echo $number;
 	sum=$(($number+$sum));
 done
-	echo $sum;
+	echo " Sum of two digit 5 random nos is :$sum";
 	average=$(($sum/5));
-	echo $average;
+	echo " Average of two digit 5 random nos is :$average";
