@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Plz enter Year:"
-read year;
+read -p "Plz enter Year: " year
 	if [ $(($year%4)) -eq 0 ]
 	then
 		if [ $(($year%100)) -ne 0 ]
