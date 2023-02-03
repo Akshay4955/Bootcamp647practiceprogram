@@ -1,7 +1,6 @@
 #!/bin/bash
 
 isPresent=$((RANDOM%3));
-
 case $isPresent in
 	0)
 		echo "Employee is Absent";
